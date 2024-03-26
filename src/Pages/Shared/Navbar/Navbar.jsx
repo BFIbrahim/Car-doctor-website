@@ -27,9 +27,9 @@ const Navbar = () => {
                         <img className="w-20" src="https://i.postimg.cc/j5TMf2Vt/logo.jpg" alt="" />
                     </a>
                 </div>
-                <div className="navbar-center hidden lg:flex">
+                <div className="navbar-center hidden lg:flex font-semibold">
                     <ul className="menu menu-horizontal px-1">
-                        <li><Link>Home</Link></li>
+                        <li><Link to='/'>Home</Link></li>
                         <li><Link>About</Link></li>
                         <li><Link>Service</Link></li>
                         <li><Link>Blog</Link></li>
@@ -39,7 +39,7 @@ const Navbar = () => {
                 <div className="navbar-end gap-4">
                     <MdOutlineShoppingBag className="size-5 text-gray-600" />
                     <img className="w-4" src="https://static-00.iconduck.com/assets.00/search-icon-2048x2048-cmujl7en.png" alt="" />
-                    <button className="border border-[#FF3811] bg-white btn text-[#FF3811] ">Appoinment</button>
+                    <button className="border border-[#FF3811] bg-white btn text-[#FF3811] hover:bg-[#FF3811] hover:text-white ">Appoinment</button>
                 </div>
             </div>
         </div>
