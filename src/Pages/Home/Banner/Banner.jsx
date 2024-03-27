@@ -10,7 +10,7 @@ import img6 from '../../../assets/images/banner/6.jpg'
 const Banner = () => {
     return (
         <div>
-            <div className="carousel w-full mt-16">
+            <div className="carousel w-full mt-16 rounded-md">
                 <div id="slide1" className="carousel-item relative w-full">
                     <img src={img5} className="w-full h-full max-h-[500px] rounded-md" />
                     <div className="absolute flex md:p-20 p-10 bg-gradient-to-r from-[#151515] to-[rgba(21, 21, 21, 0)] h-full">
@@ -18,7 +18,7 @@ const Banner = () => {
                             <h2 className="md:text-5xl lg:text-5xl text-2xl font-bold">Affordable Price For Car Servicing</h2>
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                             <div className="lg:flex lg:gap-5 hidden lg:block">
-                                <button className="btn text-white bg-[#FF3811] hover:bg-[#FF3811] hover:border-none">Discover More</button>
+                                <button className="btn text-white bg-[#FF3811] hover:bg-[#FF3811] border-none">Discover More</button>
                                 <button className="btn text-white bg-transparent hover:bg-[#FF3811] hover:border-none">Latest Projects</button>
                             </div>
                         </div>
@@ -73,7 +73,7 @@ const Banner = () => {
                             <h2 className="md:text-5xl lg:text-5xl text-2xl font-bold">Affordable Price For Car Servicing</h2>
                             <p>There are many variations of passages of  available, but the majority have suffered alteration in some form</p>
                             <div className="lg:flex lg:gap-5 hidden lg:block">
-                                <button className="btn text-white bg-[#FF3811] hover:bg-[#FF3811] hover:border-none">Discover More</button>
+                                <button className="btn text-white bg-[#FF3811] hover:bg-[#FF3811] border-none">Discover More</button>
                                 <button className="btn text-white bg-transparent hover:bg-[#FF3811] hover:border-none">Latest Projects</button>
                             </div>
                         </div>
