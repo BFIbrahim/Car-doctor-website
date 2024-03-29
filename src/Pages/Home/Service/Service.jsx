@@ -28,7 +28,9 @@ const Service = () => {
                     ></ServiceCard>)
                 }
             </div>
-            <button className="btn bg-transparent border-[#FF3811]">More Services</button>
+            <div className="mx-auto w-[150px] my-10">
+                <button className="btn bg-transparent border-[#FF3811] hover:bg-[#FF3811] hover:text-white">More Services</button>
+            </div>
 
         </div>
     );
